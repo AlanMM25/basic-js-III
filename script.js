@@ -1,3 +1,5 @@
+console.log('Números')
+
 function numbersSum (number1, number2){
     return `la suma de ${number1} + ${number2} es igual a ` + (number1 + number2)
 }
@@ -27,3 +29,44 @@ function numbersPot (number1, number2){
 }
 
 console.log(numbersPot(3, 3))
+
+function numbersRem (number1, number2){
+    return `el residuo de ${number1} entre ${number2} es igual a ` + (number1 % number2)
+}
+
+console.log(numbersRem(22, 75))
+
+function numbersSquRoot (number){
+    return `la raíz cuadrada de ${number} es igual a ` + Math.sqrt(number)
+}
+
+console.log(numbersSquRoot(22))
+
+function numbersInteger (number){
+    return `El valor entero de ${number} es igual a ` + Math.round(number)
+}
+
+console.log(numbersInteger(31.6667))
+
+
+function numbersMinToMax (min, max){
+    return Math.random() * (max - min) + min
+}
+
+console.log(numbersMinToMax(2, 6))
+
+
+console.log('LETRAS')
+
+function concaTen(userString1, userString2){
+    return userString1 + userString2
+}
+
+console.log('Hola, me llamo', 'Pepe')
+
+function textLength(userString){
+    return str.length
+}
+
+console.log('Hola, me llamo', 'Pepe')
+
